@@ -78,6 +78,7 @@ ul {
   text-align: center;
   line-height: 1;
   padding-top: 4%;
+  color: black;
   
 }
 nav {
@@ -92,6 +93,7 @@ nav {
   height: 100%;
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
+  color: black;
 }
 .list {
   font-size: 1.7rem;
