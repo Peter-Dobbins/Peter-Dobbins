@@ -98,6 +98,7 @@ nav {
 .list {
   font-size: 1.7rem;
   text-decoration: none;
+  color: black;
 }
 .nav-link:visited {
   color: black;
@@ -106,7 +107,7 @@ nav {
   color: black;
 }
 .pad {
-  padding-top: 7%;
+  vertical-align: middle;
 }
 .mid {
   text-align: center;
