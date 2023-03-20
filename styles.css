@@ -127,9 +127,10 @@ html {
         position: absolute;
         margin-left: 50%;
         margin-bottom: 11%;
-        max-width: 100%;
-        
-    }
+        max-width: 100%;}
+      
+      iframe {
+          width: 70%}
         
   }
   
