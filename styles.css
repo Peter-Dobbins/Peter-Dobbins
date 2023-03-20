@@ -118,11 +118,18 @@ html {
     text-align: center;
     text-decoration: underline;
   }
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 600px) {
     .list {
       font-size: 3vw;}
       .nav-link {
       font-size: 3vw;}
+      #main-doc {
+        position: absolute;
+        margin-left: 50%;
+        margin-bottom: 11%;
+        max-width: 100%;
+        
+    }
         
   }
   
