@@ -46,8 +46,12 @@ html {
       background-color: white;
       font-family: 'Open Sans', Arial, sans-serif;
       line-height: 1.5;
-  ;
+  
   }
+  a:visited {
+    color: red;
+  }
+
   #main-doc {
       position: absolute;
       margin-left: 17%;
@@ -102,6 +106,10 @@ html {
     font-size: 1.7rem;
     text-decoration: none;
   }
+
+  .msgs {
+    text-align: center;
+  }
   .nav-link:visited {
     color: black;
   }
@@ -118,7 +126,7 @@ html {
     text-align: center;
     text-decoration: underline;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 787px) {
     .list {
       font-size: 3vw;}
       .nav-link {
@@ -131,8 +139,15 @@ html {
       
       iframe {
           width: 70%}
+          #main-doc {
+            position: absolute;
+            margin-left: 17%;
+            margin-bottom: 11%;
+            margin-right: 1%;
+            max-width: 80%;
         
   }
+}
   
   #response {
     width: 50%;
@@ -155,3 +170,4 @@ html {
     font-style: none;
     font-weight: normal;
   }
+
